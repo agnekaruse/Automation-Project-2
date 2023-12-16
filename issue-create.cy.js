@@ -121,7 +121,7 @@ describe('Test case 1:Add more issues', () => {
 });
 
 describe('Test case 2: Use Random Data Generator', () => {
-  it.only('Use the random data plugin for a single word', () => {
+  it('Use the random data plugin for a single word', () => {
     cy.visit('/');
     cy.get('[data-testid="icon:plus"]').click()
 
