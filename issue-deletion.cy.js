@@ -50,7 +50,7 @@ describe('Test Case 2: Issue Deletion Cancellation', () => {
         });
         });
 
-it.only('Issue Deletion Cancellation', () => {
+it('Issue Deletion Cancellation', () => {
 //Check that the issue is visible
 cy.get('[data-testid="modal:issue-details"]').should("be.visible");
   
